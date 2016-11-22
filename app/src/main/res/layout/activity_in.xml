@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_darker"
+    tools:context="com.synapsehub.medicollect.InActivity">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="6dip"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <Button android:id="@+id/home_btn_feature1"
+                style="@style/HomeButton"
+                android:onClick="onClickFeature"
+                android:text="@string/title_entry1"
+                android:drawableTop="@drawable/collect"/>
+            <Button android:id="@+id/home_btn_feature2"
+                style="@style/HomeButton"
+                android:onClick="onClickFeature"
+                android:text="@string/title_entry2"
+                android:drawableTop="@drawable/edit"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <Button android:id="@+id/home_btn_feature3"
+                style="@style/HomeButton"
+                android:onClick="onClickFeature"
+                android:text="@string/title_entry3"
+                android:drawableTop="@drawable/stat"/>
+            <Button android:id="@+id/home_btn_feature4"
+                style="@style/HomeButton"
+                android:onClick="onClickFeature"
+                android:text="@string/title_entry4"
+                android:drawableTop="@drawable/sync"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <Button android:id="@+id/home_btn_feature5"
+                style="@style/HomeButton"
+                android:onClick="onClickFeature"
+                android:text="@string/title_entry5"
+                android:drawableTop="@drawable/consult"/>
+            <Button android:id="@+id/home_btn_feature6"
+                style="@style/HomeButton"
+                android:onClick="onClickFeature"
+                android:text="@string/title_entry6"
+                android:drawableTop="@drawable/about"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+

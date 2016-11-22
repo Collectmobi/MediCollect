@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "729065775975",
+    "firebase_url": "https://mobicollect-bb38e.firebaseio.com",
+    "project_id": "mobicollect-bb38e",
+    "storage_bucket": "mobicollect-bb38e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729065775975:android:e49821731b0981b8",
+        "android_client_info": {
+          "package_name": "com.synapsehub.medicollect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729065775975-201365u5ph4a6epfqa6sos2qcf83irh8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.synapsehub.medicollect",
+            "certificate_hash": "6DA9F49D07BBD9D1378CC6A24D1A5DB6F022759A"
+          }
+        },
+        {
+          "client_id": "729065775975-9fcttgn9lsp6iv3d7lqov3dqu5imm581.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFla4ql2sUqtWcHiyQwM4AxL3G8FVL9uI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729065775975-9fcttgn9lsp6iv3d7lqov3dqu5imm581.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

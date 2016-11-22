@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MediCollect</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_entry1">Collect</string>
+    <string name="title_entry2">Edit</string>
+    <string name="title_entry3">Stat</string>
+    <string name="title_entry4">Sync</string>
+    <string name="title_entry5">Consult</string>
+    <string name="title_entry6">About</string>
+
+    <!-- Strings related to preference -->
+    <string name="pref_collect_key" translatable="false">collect</string>
+    <string name="pref_sync_true">Les données serons synchroniser automatiquement</string>
+    <string name="pref_collect_default" translatable="false">false</string>
+    <string name="pref_notif_key" translatable="false">notification</string>
+    <string name="pref_notif_true">L\'application affichera une notification lorsque les sessions que vous avez sélectionnées sont sur le point de commencer.</string>
+    <string name="pref_notif_default" translatable="false">false</string>
+    <string name="pref_note_key" translatable="false">note</string>
+    <string name="pref_note_label">Rappelez-moi d\'informer le bureau UNFPA</string>
+    <string name="pref_note_true">L\'application affichera des notifications demandant votre avis</string>
+    <string name="pref_note_default" translatable="false">true</string>
+    <string name="pref_collect_label"> Collecte des donnees activées</string>
+
+    <!--String array for login role -->
+    <string-array name="login_role">
+        <item>Admin</item>
+        <item>Medecin</item>
+        <item>Collector</item>
+        <item>Visitor</item>
+        <item>Autre</item>
+    </string-array>
+
+</resources>
