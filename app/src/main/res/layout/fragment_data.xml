@@ -4,13 +4,276 @@
     android:layout_height="match_parent">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="FRAGMENT DATA"
-        android:id="@+id/textView"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/primary_darker">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <EditText android:id="@+id/input_residence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Age de Ménarches" />
+
+
+            <LinearLayout
+                android:id="@+id/line1"
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+                <EditText android:id="@+id/input_grossesse"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:inputType="textEmailAddress"
+                    android:hint="Nombre Grossesse"
+                    style="@style/EditText"
+                    />
+
+                <EditText android:id="@+id/input_accouchement"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="textEmailAddress"
+                    android:hint="Nombre Accouch."
+                    style="@style/EditText"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/line2"
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+                <EditText android:id="@+id/input_Hopital"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:inputType="textEmailAddress"
+                    android:hint="Accouch. à l'Hopital"
+                    style="@style/EditText"
+                    />
+
+                <EditText android:id="@+id/input_domicil"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="textEmailAddress"
+                    android:hint="Accouch. à Domicile"
+                    style="@style/EditText"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/line3"
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+                <EditText android:id="@+id/input_enfants"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:inputType="textEmailAddress"
+                    android:hint="Nombre Enfants"
+                    style="@style/EditText"
+                    />
+
+                <EditText android:id="@+id/input_enfantsVivant"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="textEmailAddress"
+                    android:hint="Enfants Vivants"
+                    style="@style/EditText"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/line4"
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+                <EditText android:id="@+id/input_avortement"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:inputType="textEmailAddress"
+                    android:hint="Nombre Avortement"
+                    style="@style/EditText"
+                    />
+
+                <EditText android:id="@+id/input_ageenfants"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="textEmailAddress"
+                    android:hint="Age dernier Enfant"
+                    style="@style/EditText"
+                    />
+
+            </LinearLayout>
+
+            <EditText android:id="@+id/input_perteurine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Perte d'urine: depuis combien de temps" />
+
+
+            <Spinner android:id="@+id/input_recrutement"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Type Récrutement"
+
+                />
+
+            <EditText android:id="@+id/input_fistule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Age de survenu de fistule" />
+
+
+            <Spinner android:id="@+id/input_accouchementa"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_enfantsViv"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_mode"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <EditText android:id="@+id/input_dureeAccouch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Durée travail d'Accouchement" />
+
+
+            <Spinner android:id="@+id/input_apresfestile"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+
+            <Spinner android:id="@+id/input_cause1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_cause2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_cause3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_cause4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_fistuleoperé"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <EditText android:id="@+id/input_interventionChirurgical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombre d'intervention chirurgicale" />
+
+
+            <Spinner android:id="@+id/input_fistuleuroge1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_fistuleuroge2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_fistuleuroge3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_fistuleuroge4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_fistuleuroge5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_traitement1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_traitement2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_traitement3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_traitement4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_traitement5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_traitement6"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_traitement7"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_traitement8"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_Evolution1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_Evolution2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_Evolution3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+
+            <Spinner android:id="@+id/input_Planification"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                style="@style/btn_black"
+                android:padding="12dp"
+                android:text="Save"/>
+
+        </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>

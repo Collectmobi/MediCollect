@@ -4,13 +4,73 @@
     android:layout_height="match_parent">
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="FRAGMENT PATIENT ID"
-        android:id="@+id/textView"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/primary_darker"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <EditText android:id="@+id/input_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Nom et Prénom" />
+            <EditText android:id="@+id/input_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Age" />
+
+            <EditText android:id="@+id/input_residence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="Résidence" />
+
+            <EditText android:id="@+id/input_telephone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:hint="Téléphone" />
+
+            <Spinner
+                android:id="@+id/input_recrutement"
+                android:spinnerMode="dialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Spinner android:id="@+id/input_marie"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_vitseul"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Spinner android:id="@+id/input_repudie"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                style="@style/btn_black"
+                android:padding="12dp"
+                android:text="Save"/>
+
+        </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>

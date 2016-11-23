@@ -67,6 +67,8 @@ public class LoginActivity extends AppCompatActivity {
         if(user_id!=null){
             startActivity(new Intent(LoginActivity.this,InActivity.class));
             finish();
+            //Ajoute l'animation entre les activities
+            overridePendingTransition(R.anim.push_left_in,R.anim.push_left_out);
         }
 
         mAuth=FirebaseAuth.getInstance();
@@ -194,6 +196,8 @@ public class LoginActivity extends AppCompatActivity {
                 Intent in = new Intent(LoginActivity.this, InActivity.class);
                 in.putExtra("usermail", user.getEmail());
                 startActivity(in);
+                //Ajoute l'animation entre les activities
+                overridePendingTransition(R.anim.push_left_in,R.anim.push_left_out);
 
             }
         }).addOnFailureListener(new OnFailureListener() {

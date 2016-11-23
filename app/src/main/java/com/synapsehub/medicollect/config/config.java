@@ -3,6 +3,13 @@ package com.synapsehub.medicollect.config;
 import android.content.Context;
 import android.widget.Toast;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+
 /**
  * Created by Michelo on 18/11/2016.
  */
@@ -27,6 +34,7 @@ public class config {
     {
         Toast.makeText (c, msg, Toast.LENGTH_SHORT).show ();
     } // end toast
+
 
 
 }
